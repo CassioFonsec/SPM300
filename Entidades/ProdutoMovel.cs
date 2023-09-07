@@ -11,7 +11,7 @@ namespace SPM300.Entidades
         public float Largura { get; set; }
         public float Altura { get; set; }
         public float Profundidade { get; set; }
-        private List<ComponenteMovel> ComponentesMovel { get; set; } = new List<ComponenteMovel>();
+        public List<ComponenteMovel> ComponentesMovel { get; private set; } = new List<ComponenteMovel>();
         public ProdutoMovel(int id, string descricao) : base(id, descricao) { }
         public ProdutoMovel(int id, string descricao, float largura, float altura, float profundidade)
             : base(id, descricao)
