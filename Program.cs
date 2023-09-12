@@ -1,6 +1,6 @@
 ﻿using SPM300.Entidades;
 using System;
-using System.Collections.Generic;
+using System.Collections.Generic;x
 
 namespace SPM300
 {
