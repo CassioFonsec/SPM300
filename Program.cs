@@ -1,7 +1,7 @@
 ﻿using SPM300.Entidades;
 using SPM300.Servicos;
 using System;
-using System.Collections.Generic;x
+using System.Collections.Generic;
 
 namespace SPM300
 {
