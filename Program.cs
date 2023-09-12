@@ -1,4 +1,5 @@
 ﻿using SPM300.Entidades;
+using SPM300.Servicos;
 using System;
 using System.Collections.Generic;
 
@@ -8,8 +9,9 @@ namespace SPM300
     {
         static void Main(string[] args)
         {
+            ConstruirMovel.CriarMovel();
 
-            List<PecaAlmoxarifado> pecasAlmoxarifado = new List<PecaAlmoxarifado>();
+            /*List<PecaAlmoxarifado> pecasAlmoxarifado = new List<PecaAlmoxarifado>();
             AdicionarPecaAlmoxarifado(pecasAlmoxarifado);
             ListarPecaAlmoxarifado(pecasAlmoxarifado);
             Console.ReadLine();
@@ -26,7 +28,7 @@ namespace SPM300
 
             AdicionarComponentesProdutoMovel(produtosMovel, componentesMovel);
             ListarComponentesMovelDeProdutoMovel(produtosMovel);
-            Console.ReadLine();
+            Console.ReadLine();*/
 
             /*
             RemoverComponentesProdutoMovel(produtosMovel);
@@ -34,7 +36,7 @@ namespace SPM300
             Console.ReadLine();
             */
 
-            ListarComponentesMovel(componentesMovel);
+            /*ListarComponentesMovel(componentesMovel);
             Console.ReadLine();
 
             RemoverComponentesMovel(componentesMovel);
@@ -44,7 +46,7 @@ namespace SPM300
             Console.ReadLine();
 
             ListarComponentesMovelDeProdutoMovel(produtosMovel);
-            Console.ReadLine();
+            Console.ReadLine();*/
         }
 
         private static void RemoverComponentesMovel(List<ComponenteMovel> list)
