@@ -1,0 +1,4 @@
+# Igonorar arquivos /bin
+/bin/
+# Ignorar obj
+/obj/
