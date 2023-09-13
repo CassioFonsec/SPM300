@@ -2,3 +2,5 @@
 /bin/
 # Ignorar obj
 /obj/
+# Ignorar arquivos vs
+/.vs
